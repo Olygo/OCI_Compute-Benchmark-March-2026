@@ -52,7 +52,7 @@ This dual-layer approach ensures that the results provide both **theoretical per
 ![00](./.images/00.png)
 
 
-## 3. Single-Core Analysis
+## 3. Single-Core Analysis
 
 ### 3.1	Shapes Performance
 
@@ -203,10 +203,10 @@ These gains illustrate that improvements are not limited to synthetic benchmarks
 
 The strong multi-core scaling of E6 makes it particularly well-suited for:
 
-- **High-performance computing (HPC) and batch processing **
-- **CI/CD pipelines and large-scale code compilation **
+- **High-performance computing (HPC) and batch processing**
+- **CI/CD pipelines and large-scale code compilation**
 - **Media processing and rendering workloads** 
-- **AI/ML inference at scale **
+- **AI/ML inference at scale**
 - **Data analytics and transformation pipelines**
 
 The E6 generation significantly improves not only raw multi-core performance but also **efficiency in scaling workloads across cores**, making it the optimal choice for modern distributed systems and compute-intensive enterprise applications.
@@ -340,7 +340,7 @@ The results clearly demonstrate that **performance scaling across generations is
 
 - **E4** remains a highly attractive option for **cost-sensitive environments**, offering strong and stable performance with excellent price efficiency. 
 - **E5** provides the **best overall balance**, combining modern architecture (DDR5, improved IPC) with controlled cost increases, making it ideal for most general-purpose and scalable workloads. 
-- **E6** stands out as the **premium performance tier,** delivering industry-leading results in both single-core and multi-core scenarios, and should be prioritized **for performance-critical, compute-intensive, or latency-sensitive applications. **
+- **E6** stands out as the **premium performance tier,** delivering industry-leading results in both single-core and multi-core scenarios, and should be prioritized **for performance-critical, compute-intensive, or latency-sensitive applications.**
 
 In comparison, **Intel-based shapes maintain niche relevance** for specific high-frequency use cases but do not provide the same level of cost efficiency or scalability across diverse workloads.
 
