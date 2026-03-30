@@ -1,6 +1,6 @@
 # OCI – Compute Benchmark March 2026
 
-## 1	OCI Compute Performance Analysis
+## 1.	OCI Compute Performance Analysis
 
 **[This report](./OCI_Compute-Benchmark-March-2026)** provides a comprehensive comparative analysis of six Oracle Cloud Infrastructure compute shapes, focusing on the generational evolution of AMD EPYC processors, from Rome (E3) to the latest Turin (E6) architecture, alongside Intel Xeon Platinum (Ice Lake-SP)-based offerings.
 
@@ -17,7 +17,7 @@ Key takeaways:
 - **Intel shapes remain relevant for specific high-frequency use cases, but at a higher cost.**
 - **Cost efficiency strongly favors AMD-based shapes, particularly from E4 onward.**
 
-## 2	Benchmark Scope and Methodology
+## 2.	Benchmark Scope and Methodology
 All benchmarks were conducted under controlled and standardized conditions to ensure consistency, reproducibility, and fairness across all evaluated compute shapes.
 
 ### 2.1	Test Configuration
@@ -52,7 +52,7 @@ This dual-layer approach ensures that the results provide both **theoretical per
 ![00](./.images/00.png)
 
 
-## 3	Single-Core Analysis
+## 3. Single-Core Analysis
 
 ### 3.1	Shapes Performance
 
@@ -123,7 +123,7 @@ The observed single-core performance characteristics make E6 particularly well-s
 The E6 generation does not only improve peak single-core performance but also **broadens the range of workloads that benefit from high per-thread efficiency**, reinforcing its position as the optimal choice for both modern cloud-native and traditional latency-sensitive applications.  
 
 
-## 4	Multi-Core Analysis
+## 4.	Multi-Core Analysis
 
 ### 4.1	Shapes Performance
 
@@ -211,7 +211,7 @@ The strong multi-core scaling of E6 makes it particularly well-suited for:
 
 The E6 generation significantly improves not only raw multi-core performance but also **efficiency in scaling workloads across cores**, making it the optimal choice for modern distributed systems and compute-intensive enterprise applications.
 
-## 5	Performance per Cost Analysis
+## 5.	Performance per Cost Analysis
 
 
 Evaluating performance in isolation provides only a partial view; a more relevant metric for architectural decision-making is **performance normalized by cost**. 
@@ -240,7 +240,7 @@ When analyzing the ratio of benchmark performance to price (OCPU and memory comb
 
 The analysis confirms that** newer AMD EPYC generations not only improve raw performance but also maintain strong economic efficiency**, particularly when evaluated against real-world workloads. As a result, organizations can confidently adopt newer shapes (E5/E6) without compromising cost-effectiveness, especially in environments where performance directly impacts scalability, latency, or throughput.
 
-## 6	Impact of Memory Technology : DDR4 vs DDR5
+## 6.	Impact of Memory Technology : DDR4 vs DDR5
 
 The transition from **DDR4 (E3/E4) to DDR5 (E5/E6)** represents a major architectural advancement and is a key contributor to the performance gains observed in newer OCI compute shapes. While CPU improvements play a central role, memory subsystem evolution is critical in unlocking the full potential of modern multi-core processors.
 
@@ -287,7 +287,7 @@ The introduction of DDR5 fundamentally shifts the performance profile of modern 
 
 While CPU evolution drives baseline performance improvements,**DDR5 acts as a critical enabler**, ensuring that increased compute capacity is effectively utilized. For memory-bound and data-intensive workloads, the transition to DDR5 is not incremental, it is **transformational**, and a primary factor behind the superior performance observed in E5 and especially E6 shapes.
 
-## 7	Recommended Use-Cases by Architecture
+## 7.	Recommended Use-Cases by Architecture
 
 Based on the detailed performance metrics, we can categorize these shapes into specific workload “sweet spots”:
 
@@ -316,7 +316,7 @@ Based on the detailed performance metrics, we can categorize these shapes into s
 - Intel remains niche for high-frequency workloads 
 
 
-## 8	Cost Analysis
+## 8.	Cost Analysis
 
 The pricing model across the evaluated OCI compute shapes reveals a clear differentiation between AMD EPYC-based instances and Intel Xeon-based offerings, both in absolute cost and cost efficiency.
 
@@ -331,7 +331,7 @@ In contrast, Intel-based shapes exhibit higher baseline pricing without deliveri
 
 When normalized against performance, AMD EPYC shapes, especially from the E4 generation onward, consistently deliver **the best balance between cost, scalability, and computational throughput**, making them the preferred choice for most enterprise workloads.
 
-## 9 Conclusion
+## 9. Conclusion
 
 This benchmark highlights the rapid and consistent evolution of AMD EPYC processors within Oracle Cloud Infrastructure, with each generation delivering s**ubstantial gains in both raw performance and operational efficiency**. The progression from Rome (E3) to Turin (E6) is not incremental but transformational, driven by architectural improvements, higher frequencies, increased core efficiency, and the adoption of DDR5 memory.
 
