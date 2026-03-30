@@ -2,7 +2,7 @@
 
 ## 1.	OCI Compute Performance Analysis
 
-**[This report](./OCI_Compute-Benchmark-March-2026)** provides a comprehensive comparative analysis of six Oracle Cloud Infrastructure compute shapes, focusing on the generational evolution of AMD EPYC processors, from Rome (E3) to the latest Turin (E6) architecture, alongside Intel Xeon Platinum (Ice Lake-SP)-based offerings.
+**[This report](./OCI_Compute-Benchmark-March-2026.pdf)** provides a comprehensive comparative analysis of six Oracle Cloud Infrastructure compute shapes, focusing on the generational evolution of AMD EPYC processors, from Rome (E3) to the latest Turin (E6) architecture, alongside Intel Xeon Platinum (Ice Lake-SP)-based offerings.
 
 The objective of this study is to support infrastructure and cloud architecture decision-making by establishing a clear correlation between underlying hardware characteristics (CPU architecture, frequency, and memory technology) and observed performance across standardized benchmark workloads.
 
