@@ -28,7 +28,7 @@ All benchmarks were conducted under controlled and standardized conditions to en
 - ***Environment:*** Isolated execution environments to eliminate “noisy neighbor” effects and external resource contention 
 
 
-### 2.2	Benchmark Design
+### 2.2	Benchmark Design
 
 The benchmark suite is designed to reflect both synthetic performance indicators and realistic workload scenarios encountered in enterprise environments. It includes:
 
@@ -125,12 +125,12 @@ The E6 generation does not only improve peak single-core performance but also **
 
 ## 4.	Multi-Core Analysis
 
-### 4.1	Shapes Performance
+### 4.1	Shapes Performance
 
 ![06](./.images/06.png)
 
 
-### 4.2	Multi-Core Performance
+### 4.2	Multi-Core Performance
 
 ![07](./.images/07.png)
 
@@ -251,14 +251,12 @@ The transition from **DDR4 (E3/E4) to DDR5 (E5/E6)** represents a major architec
 - DDR4-based systems operate at **~3200 MT/s**, whereas DDR5 in E5/E6 reaches up to** 5600 MT/s**, representing a **~75% increase in theoretical memory bandwidth.** 
 - This increase directly enhances data transfer rates between memory and CPU, reducing bottlenecks in data-intensive operations. 
 
-
-### 6.2 Real-World Performance Impact
+### 6.2 Real-World Performance Impact
 
 The benefits of DDR5 are particularly evident in workloads that are sensitive to memory throughput:
 
 - **Asset Compression (multi-core):** E6 achieves ~1.20 GB/sec, compared to ~760 MB/sec on E4, illustrating a substantial gain driven not only by CPU improvements but also by higher memory bandwidth. 
 - **Data-heavy processing tasks** such as image manipulation, rendering, and large dataset transformations consistently show improved scaling on DDR5-based systems. 
-
 
 ### 6.3	Improved Compute Efficiency (“Computational Fluidity”)
 
@@ -291,14 +289,14 @@ While CPU evolution drives baseline performance improvements,**DDR5 acts as a cr
 
 Based on the detailed performance metrics, we can categorize these shapes into specific workload “sweet spots”:
 
-### 7.1 High-Performance Computing (HPC) & AI
+### 7.1 High-Performance Computing (HPC) & AI
 
 - **Top Choice: VM.Standard.E6.Flex**
 - **Reasoning**: Dominates in Object Detection (83.8 images/sec single-core) and Ray Tracing (54.1 Mpixels/sec multi-core).
 - **Benefit:** The jump to DDR5 5600 MT/s memory provides the necessary bandwidth for data-heavy AI and rendering tasks.
 
 
-### 7.2	Web Servers & Application Hosting
+### 7.2	Web Servers & Application Hosting
 
 - **Top Choice: VM.Standard.E5.Flex**
 - **Reasoning**: Offers a significant performance boost over E4 (e.g., 41.4 vs 32.5 pages/sec in HTML5 Browser testing) without reaching the highest price tier of the E6.
@@ -316,7 +314,7 @@ Based on the detailed performance metrics, we can categorize these shapes into s
 - Intel remains niche for high-frequency workloads 
 
 
-## 8.	Cost Analysis
+## 8.	Cost Analysis
 
 The pricing model across the evaluated OCI compute shapes reveals a clear differentiation between AMD EPYC-based instances and Intel Xeon-based offerings, both in absolute cost and cost efficiency.
 
@@ -331,7 +329,7 @@ In contrast, Intel-based shapes exhibit higher baseline pricing without deliveri
 
 When normalized against performance, AMD EPYC shapes, especially from the E4 generation onward, consistently deliver **the best balance between cost, scalability, and computational throughput**, making them the preferred choice for most enterprise workloads.
 
-## 9. Conclusion
+## 9. Conclusion
 
 This benchmark highlights the rapid and consistent evolution of AMD EPYC processors within Oracle Cloud Infrastructure, with each generation delivering s**ubstantial gains in both raw performance and operational efficiency**. The progression from Rome (E3) to Turin (E6) is not incremental but transformational, driven by architectural improvements, higher frequencies, increased core efficiency, and the adoption of DDR5 memory.
 
