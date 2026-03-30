@@ -74,7 +74,7 @@ Single-core performance exhibits a clear and consistent upward trend across AMD 
 
 A strong correlation is observed between **CPU boost frequency and single-threaded performance**, with E6 benefiting from frequencies up to **4.1 GHz,** combined with architectural enhancements introduced in the Turin generation. The transition to **DDR5 memory** further contributes to reduced latency and improved data throughput, reinforcing gains in real-world workloads.
 
-While the** VM.Optimized3.Flex (Intel) **shape demonstrates solid performance due to its high base frequency, it remains consistently below E6 across all measured scenarios, indicating that frequency alone does not offset architectural and platform-level advantages.
+While the **VM.Optimized3.Flex (Intel)** shape demonstrates solid performance due to its high base frequency, it remains consistently below E6 across all measured scenarios, indicating that frequency alone does not offset architectural and platform-level advantages.
 
 **Key Performance Drivers**
 
@@ -99,7 +99,7 @@ The E6 generation delivers the most significant improvements in compute-intensiv
 **Web and Front-End Workloads**
 
 - **HTML5 Browser Rendering**: strong scaling with frequency and IPC improvements 
-- Improved responsiveness in** web applications and client-side processing 
+- Improved responsiveness in **web applications and client-side processing**
 
 **General Compute and Data Processing**
 
@@ -166,7 +166,7 @@ These workloads scale efficiently with core count and benefit directly from incr
 
 - **Rendering** (e.g., ray tracing) 
 - **Code compilation** (Clang) 
-- **Compression and decompression **
+- **Compression and decompression**
 
 E6 demonstrates significant acceleration in these areas due to its ability to sustain high throughput across all cores.
 
@@ -184,8 +184,8 @@ These improvements are driven by better SIMD execution, cache efficiency, and me
 
 Applications that process large volumes of data benefit from both compute and memory subsystem enhancements:
 
-- **PDF rendering **
-- **Image processing and transformation **
+- **PDF rendering**
+- **Image processing and transformation**
 - **Photo library management**
 
 The transition to DDR5 plays a critical role here, reducing memory bottlenecks and improving overall throughput.
@@ -197,7 +197,7 @@ The transition to DDR5 plays a critical role here, reducing memory bottlenecks a
 - **Object detection**: ~+180% 
 - **Ray tracing**: ~+60% 
 
-These gains illustrate that improvements are not limited to synthetic benchmarks but extend** **to real-world, production-relevant workloads.**
+These gains illustrate that improvements are not limited to synthetic benchmarks but extend** **to real-world, production-relevant workloads**
 
 **Workload Implications**
 
@@ -238,7 +238,7 @@ When analyzing the ratio of benchmark performance to price (OCPU and memory comb
 
 - **E5** is strong middle ground, combining modern architecture benefits with controlled cost increase
 
-The analysis confirms that** newer AMD EPYC generations not only improve raw performance but also maintain strong economic efficiency**, particularly when evaluated against real-world workloads. As a result, organizations can confidently adopt newer shapes (E5/E6) without compromising cost-effectiveness, especially in environments where performance directly impacts scalability, latency, or throughput.
+The analysis confirms that **newer AMD EPYC generations not only improve raw performance but also maintain strong economic efficiency**, particularly when evaluated against real-world workloads. As a result, organizations can confidently adopt newer shapes (E5/E6) without compromising cost-effectiveness, especially in environments where performance directly impacts scalability, latency, or throughput.
 
 ## 6.	Impact of Memory Technology : DDR4 vs DDR5
 
@@ -248,7 +248,7 @@ The transition from **DDR4 (E3/E4) to DDR5 (E5/E6)** represents a major architec
 
 ### 6.1 Bandwidth and Throughput Improvements
 
-- DDR4-based systems operate at **~3200 MT/s**, whereas DDR5 in E5/E6 reaches up to** 5600 MT/s**, representing a **~75% increase in theoretical memory bandwidth.** 
+- DDR4-based systems operate at **~3200 MT/s**, whereas DDR5 in E5/E6 reaches up to**5600 MT/s**, representing a **~75% increase in theoretical memory bandwidth.** 
 - This increase directly enhances data transfer rates between memory and CPU, reducing bottlenecks in data-intensive operations. 
 
 ### 6.2 Real-World Performance Impact
