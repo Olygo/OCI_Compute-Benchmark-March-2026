@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+*.docx
+*.doc
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.mp4
+*.zip
